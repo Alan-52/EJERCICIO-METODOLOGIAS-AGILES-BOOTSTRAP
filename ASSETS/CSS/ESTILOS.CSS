@@ -1,0 +1,156 @@
+/*GLOBALES*/
+
+*{
+    margin: 0;
+}
+
+
+body{
+    background-color: #28B463;   
+}
+
+
+/*MOVIL*/
+
+@media(max-width:768px){ 
+    .collapse ul{
+        display: block;
+        text-align: center;
+        font-size: 20px; 
+        list-style: none     
+    }
+
+
+    .collapse ul li {
+        margin: 20px;
+        list-style: none
+    }
+
+
+    .collapse ul li a img{
+        width: 150px;
+        margin-left: ;
+        margin-top: 50px;
+    }
+
+
+    .collapse ul li a{
+        color: white;
+        margin-top: 200px;
+        list-style: none
+    }
+
+
+    .collapse h5{
+        font-size: 25px;
+    }
+
+
+    .collapse ul li {
+        margin-top: 25px;
+    }
+
+
+    .banner{
+        background-image: url("../g");
+        padding: 25%;
+        position: relative;
+        z-index: 1;
+        background-attachment: fixed;
+    }
+
+
+    .banner img{
+        width: 210%;
+        margin-left: -110px;  
+        margin-top: -40px;  
+    }
+
+
+    .container .img1{
+        height: 400px;
+    }
+
+}
+
+
+/*TABLET Y PC PEQUEÑO*/
+
+@media(min-width:768px) { 
+    
+    .collapse ul li a{
+        font-size: 18px;
+        margin: 80px;
+        color: white;
+     }
+     
+ 
+     .collapse ul{
+         display: flex;
+         margin-left: -115px;
+     }
+ 
+
+     .collapse ul li a:hover{
+         color: yellowgreen;   
+     }
+ 
+ 
+     .collapse ul li a img{
+         width: 150px;
+         margin-left: -740px;
+         margin-top: 100px;
+     }
+
+
+     .banner img{
+        width: 100%;
+        background-attachment: fixed;    
+    }
+
+
+    .container .img1{
+        height: 250px;
+    }
+
+}
+  
+
+/*PC Y PANTALLAS GRANDES*/
+
+@media(min-width:1200px){ 
+    .collapse ul li a{
+        font-size: 20px;
+        margin: 90px;
+        color: white;
+     }
+     
+ 
+     .collapse ul{
+         display: flex;
+         margin-left: 50px;
+     }
+ 
+
+     .collapse ul li a:hover{
+         color: yellowgreen;   
+     }
+ 
+ 
+     .collapse ul li a img{
+         width: 150px;
+         margin-left: -820px;
+         margin-top: 100px;
+     }
+
+
+     .banner img{
+        width:100%;   
+    }
+
+
+    .container .img1{
+        height: 300px;    
+    }
+
+}
